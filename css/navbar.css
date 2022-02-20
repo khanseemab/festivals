@@ -1,0 +1,29 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: orange;
+    color: rgb(250, 243, 243);
+    align-items: center;
+    margin-top: 15px;
+    height: 40px;
+    list-style: none;
+    top: 0px;
+   
+}
+#navbar li{
+    margin-right: 30px;
+    font-size: 20px;
+    color: rgb(107, 8, 8);
+    
+}
